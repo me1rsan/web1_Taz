@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My First Webpage</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height:1.5; padding:20px; max-width:900px; margin:auto; }
+    header, section, footer { margin-bottom:20px; }
+    .two-col { width:100%; border-collapse:collapse; }
+    .menu { width:200px; vertical-align:top; padding:10px; }
+    .content { padding:10px; }
+    table.schedule, table.schedule th, table.schedule td { border:1px solid #ccc; border-collapse:collapse; padding:6px; text-align:left; }
+  </style>
+</head>
+<body>
+
+  <!-- Step 1: Заголовки и описание -->
+    <h1>Tazdarbay Meiirzhan</h1>
+    <h2>My First Webpage</h2>
+    <h3>About Me</h3>
+    <p>I am student of IT-2408 group</p>
+
+  <!-- Step 2: Списки -->
+    <h3>Ny hobbies</h3>
+    <ol>
+      <li>chess</li>
+      <li>robotics</li>
+      <li>GYM</li>
+    </ol>
+
+    <h3>My fav sites</h3>
+    <ul>
+      <li><a href="https://monkeytype.com" target="_blank" rel="noopener">typing skills</a></li>
+      <li><a href="https://chess.com" target="_blank" rel="noopener">playing chess online</a></li>
+    </ul>
+
+  <!-- Step 3: Изображение -->
+    <h3>photos</h3>
+    <!-- Положи файл photo.jpg в папку проекта или измени src -->
+    <img src="photo.jpg" alt="Моё фото" width="150" />
+  
+
+  <!-- Step 4: Кнопка -->
+  
+    <button >Click Me</button>
+
+  <!-- Step 5: Таблица расписания -->
+    <h3>schedule</h3>
+    <table class="schedule">
+      <thead>
+        <tr><th>Subject</th><th>Day</th><th>Time</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Analytic geometry</td><td>Monday</td><td>10:00</td></tr>
+        <tr><td>Web1</td><td>Wednsday</td><td>14:00</td></tr>
+        <tr><td>Physical education</td><td>Thursday</td><td>09:00</td></tr>
+      </tbody>
+    </table>
+
+  <!-- Step 6: Эмодзи -->
+    <h3>Настроение</h3>
+    <p>Morning &#128512;</p>
+    <p>at uni&#128218;</p>
+    <p>at GYM&#127947;</p>
+
+  <!-- Step 7: Форма -->
+    <h3>form</h3>
+    <form id="contactForm" action="#" method="post">
+      <label>Name: <input type="text" name="name" required></label><br><br>
+      <label>Email: <input type="email" name="email" required></label><br><br>
+      <label>Любимый цвет: <input type="color" name="favcolor"></label><br><br>
+      <buttn>Submit</button>
+    </form>
+
+  <footer>
+    <p>© 2025 Meiirzhan</p>
+  </footer>
+</body>
+</html>
